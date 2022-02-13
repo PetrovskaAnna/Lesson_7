@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+@font-face {
+	font-family: 'ArnoPro';
+	src: url('../fonts/ArnoPro-LightDisplay.woff2') format('woff2'),url('../fonts/ArnoPro-LightDisplay.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wraper {
+	overflow: hidden;
+	min-height: 100%;
+}
+.header {
+	font-size: 30px;
+	color: red;
+	margin-bottom: 100px;
+}
+.container {
+	max-width: 1920px;
+}
+.my-button {
+	display: inline-block;
+	border-radius: 20px 20px 20px 20px;
+	background-color: rgb(33, 116, 89);
+	color: aliceblue;
+	font-weight: 700;
+	font-size: 24px;
+	box-shadow: 2px 5px 15px 10px rgb(2, 26, 2);
+	margin: 0px 0px 140px 100px;
+	line-height: 60px;
+	width: 300px;
+	text-align: center;
+}
+.block {
+	height: 1594px;
+	max-width: 810px;
+	margin: 0px 0px 700px 100px;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	line-height: 160%;
+}
+.main-title {
+	margin: 0px 0px 92px 0px;
+	width: 810px;
+}
+.main-title__text {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+}
+.image {
+	margin: 0px 0px 60px 0px;
+}
+
+div.text {
+	width: 810px;
+}
+.bold-text__first {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 150%;
+	margin: 0px 0px 24px 0px;
+}
+.regular-text__old-age {
+	margin: 0px 0px 24px 0px;
+
+}
+.regular-text__love {
+	margin: 0px 0px 48px 0px;
+}
+.bold-text__quote {
+	background: url('../img/braces.png') 0 0 no-repeat;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 150%;
+	margin: 0px 0px 48px 0px;
+	padding-left: 58px;
+}
+.regular-text__list-title {
+	margin-bottom: 24px;
+}
+.regular-text__list {
+	margin-bottom: 24px;
+	padding-left: 30px;
+}
+.regular-text.item {
+	background: url('../img/Vector.png') 0 5px no-repeat;
+	margin: 0 0 4px 0;
+	padding-left: 32px;
+}
+.regular-text__conclusion {
+	margin: 0 0 180px 0;
+}
+
+.createx {
+	width: 398px;
+}
+.who {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin: 0 0 8px 0;
+}
+.createx-title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin: 0 0 40px 0;
+
+}
+.createx-list {
+	margin-bottom: 36px;
+}
+.createx-item {
+	background: url(../img/Vector.png) 0 5px no-repeat;
+	padding-left: 30px;
+	margin: 0 0 12px 0;
+	color: #424551;
+	font-size: 16px;
+line-height: 160%;
+}
+.button {
+	display: inline-block;
+	width: 163px;
+	border-radius: 4px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	line-height: 310%;
+	text-transform: capitalize;
+}
+
+.footer{
+	font-size: 30px;
+	color: red;
+}
+
+/* ===============================part 2===================================== */
+
+
+.block-dreem {
+	font-family: 'ArnoPro', 'sans-serif';
+	max-width: 100%;
+	min-width: 900px;
+	min-height: 1000px;
+	margin: 0 100px 0 ;
+	border: 10px double darkblue;
+	background-image: linear-gradient( 180deg, hsl(197deg 79% 66%) 0%, hsl(194deg 80% 69%) 12%, hsl(191deg 80% 72%) 22%, hsl(188deg 80% 75%) 30%, hsl(185deg 80% 78%) 37%, hsl(182deg 81% 81%) 43%, hsl(179deg 81% 84%) 49%, hsl(171deg 55% 76%) 54%, hsl(161deg 38% 63%) 58%, hsl(151deg 29% 51%) 63%, hsl(142deg 34% 39%) 67%, hsl(132deg 40% 29%) 71%, hsl(122deg 48% 19%) 74%, hsl(114deg 53% 14%) 78%, hsl(112deg 51% 14%) 82%, hsl(110deg 50% 15%) 85%, hsl(108deg 49% 16%) 89%, hsl(106deg 48% 17%) 93%, hsl(104deg 47% 17%) 96%, hsl(102deg 46% 18%) 100%);
+}
+.sky {
+	max-height: 100%;
+	overflow: auto;
+	background:  url(../img/sun4.png) 70% 20% / 100px no-repeat fixed, url(../img/sky.png) 0 0 repeat-x;
+	max-width: 100%;
+	margin-bottom: 40px;
+	min-height: 300px;
+}
+.sky-sky{
+	max-width: 250px;
+	padding: 30px 0 0 30px;
+	line-height: 200%;
+	font-size: 16px;
+	text-shadow: 10px 10px 10px blue;
+}
+.house {
+	max-height: 800px;
+	overflow: auto;
+	background: url(../img/apple.png) 0 10% / 500px no-repeat local ,url(../img/bush2.png) 90% 99% / 100px no-repeat , url(../img/house.png) 90% 115% / 670px no-repeat, url(../img/tree.png) 100% 100% / 500px no-repeat local;
+	text-shadow: 5px 5px 5px rgb(14, 51, 23);
+}
+.house-text{
+	max-width: 250px;
+	margin: 0 0 30px 30px;
+}
+.house-text.one{
+	margin-bottom: 300px;
+}
+.house-text.five{
+	margin-bottom: 0;
+}
